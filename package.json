@@ -1,0 +1,34 @@
+{
+  "name": "sample-nodejs-send-email-ses",
+  "version": "1.0.0",
+  "description": "Sample Nodejs send email SES",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js --exec babel-node --presets babel-preset-env",
+    "dev": "npm run server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-sdk": "^2.719.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "json": "^9.0.4",
+    "milsymbol": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.17.5"
+  }
+}
